@@ -171,3 +171,14 @@ body{
         }
     }
 }
+
+//* Hover
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: #b34a68 !important;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #b34a68 !important;
+}
