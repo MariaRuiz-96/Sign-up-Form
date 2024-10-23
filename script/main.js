@@ -1,4 +1,4 @@
-alert("hola")
+
 let button =  document.querySelector("#button")
 let forms = document.querySelectorAll(".inputs")
 
