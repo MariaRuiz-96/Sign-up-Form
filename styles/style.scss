@@ -16,6 +16,7 @@ body{
 
 //* Estilos*/
 
+//* Base de estilo
 #container{
     max-width: 1440px;
     min-height: 100vh;
@@ -53,7 +54,14 @@ body{
         justify-content: center;
         align-items: center;
 
-        gap: 25px;
+        gap: 42px;
+
+        #text{
+            width: 762px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
         
 
         p{
@@ -134,7 +142,8 @@ body{
             flex-direction: column;
             align-items: flex-start; 
             justify-content: flex-start;
-            width: 100%;
+            width: 762px;
+            gap: 25px;
 
             input{
                 display: inline-flex;
@@ -155,6 +164,10 @@ body{
 
             }
 
+            a{
+                color: #C75B7A;
+                text-decoration: none;
+            }
         }
     }
 }

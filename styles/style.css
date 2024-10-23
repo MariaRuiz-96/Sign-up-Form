@@ -41,7 +41,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 42px;
+}
+#container #content #text {
+  width: 762px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 #container #content p {
   color: #000;
@@ -108,7 +114,8 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 100%;
+  width: 762px;
+  gap: 25px;
 }
 #container #content #down input {
   display: inline-flex;
@@ -122,6 +129,10 @@ body {
   border-radius: 8px;
   background: #C75B7A;
   color: white;
+}
+#container #content #down a {
+  color: #C75B7A;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
